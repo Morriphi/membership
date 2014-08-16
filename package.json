@@ -1,0 +1,13 @@
+{
+  "name": "froggyfrog-membership",
+  "author": "Philip Morris",
+  "description": "A membership system patterned after Devise",
+  "dependencies": {
+    "should": "~4.0.4"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
