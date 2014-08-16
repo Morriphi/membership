@@ -1,5 +1,6 @@
 {
   "name": "froggyfrog-membership",
+  "version" : "0.0.1",
   "author": "Philip Morris",
   "description": "A membership system patterned after Devise",
   "dependencies": {
