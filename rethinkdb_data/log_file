@@ -1,0 +1,72 @@
+2014-08-17T21:00:03.479852000 0.446265s info: Creating directory /Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data
+2014-08-17T21:00:03.481568000 0.447982s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data' did not already exist.)
+2014-08-17T21:00:03.481638000 0.448051s info: Running rethinkdb 1.11.3 (CLANG 5.0 (clang-500.2.79))...
+2014-08-17T21:00:03.484955000 0.451369s info: Running on Darwin 13.3.0 x86_64
+2014-08-17T21:00:03.484988000 0.451401s info: Loading data from directory /Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data
+2014-08-17T21:00:03.583654000 0.550106s info: Listening for intracluster connections on port 29015
+2014-08-17T21:00:03.585172000 0.551625s info: Listening for client driver connections on port 28015
+2014-08-17T21:00:03.585199000 0.551651s info: Listening for administrative HTTP connections on port 8080
+2014-08-17T21:00:03.585200000 0.551652s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-17T21:00:03.585201000 0.551653s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-17T21:00:03.585201000 0.551654s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-17T21:00:03.585202000 0.551654s info: Server ready
+2014-08-17T21:00:08.997961000 5.964612s info: Server got SIGINT from pid 1019, uid 501; shutting down...
+2014-08-17T21:00:08.998189000 5.964839s info: Shutting down client connections...
+2014-08-17T21:00:08.998522000 5.965172s info: All client connections closed.
+2014-08-17T21:00:08.998531000 5.965181s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-08-17T21:00:08.998534000 5.965184s info: Storage engine shut down.
+2014-08-17T21:36:30.792341000 0.003169s info: Running rethinkdb 1.11.3 (CLANG 5.0 (clang-500.2.79))...
+2014-08-17T21:36:30.795020000 0.005848s info: Running on Darwin 13.3.0 x86_64
+2014-08-17T21:36:30.795068000 0.005896s info: Loading data from directory /Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data
+2014-08-17T21:36:30.802474000 0.013302s info: Listening for intracluster connections on port 29015
+2014-08-17T21:36:30.803682000 0.014510s info: Listening for client driver connections on port 28015
+2014-08-17T21:36:30.803693000 0.014521s info: Listening for administrative HTTP connections on port 8080
+2014-08-17T21:36:30.803694000 0.014522s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-17T21:36:30.803695000 0.014523s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-17T21:36:30.803696000 0.014524s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-17T21:36:30.803696000 0.014524s info: Server ready
+2014-08-17T21:50:07.001087000 816.244103s info: Server got SIGINT from pid 19429, uid 501; shutting down...
+2014-08-17T21:50:07.001318000 816.244334s info: Shutting down client connections...
+2014-08-17T21:50:07.001521000 816.244537s info: All client connections closed.
+2014-08-17T21:50:07.001527000 816.244543s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-08-17T21:50:07.007327000 816.250343s info: Storage engine shut down.
+2014-08-18T08:34:02.500366000 0.367372s info: Running rethinkdb 1.11.3 (CLANG 5.0 (clang-500.2.79))...
+2014-08-18T08:34:02.503863000 0.370869s info: Running on Darwin 13.3.0 x86_64
+2014-08-18T08:34:02.503886000 0.370891s info: Loading data from directory /Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data
+2014-08-18T08:34:02.519158000 0.386164s info: Listening for intracluster connections on port 29015
+2014-08-18T08:34:02.521575000 0.388580s info: Listening for client driver connections on port 28015
+2014-08-18T08:34:02.521588000 0.388593s info: Listening for administrative HTTP connections on port 8080
+2014-08-18T08:34:02.521589000 0.388594s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-18T08:34:02.521590000 0.388595s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-18T08:34:02.521590000 0.388595s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-18T08:34:02.521591000 0.388596s info: Server ready
+2014-08-18T17:37:42.338895000 10999.459669s info: Server got SIGINT from pid 392, uid 501; shutting down...
+2014-08-18T17:37:42.339248000 10999.460022s info: Shutting down client connections...
+2014-08-18T17:37:42.339577000 10999.460351s info: All client connections closed.
+2014-08-18T17:37:42.339585000 10999.460358s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-08-18T17:37:42.347928000 10999.468701s info: Storage engine shut down.
+2014-08-19T06:55:00.717250000 0.455988s info: Running rethinkdb 1.11.3 (CLANG 5.0 (clang-500.2.79))...
+2014-08-19T06:55:00.721715000 0.460453s info: Running on Darwin 13.3.0 x86_64
+2014-08-19T06:55:00.721746000 0.460484s info: Loading data from directory /Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data
+2014-08-19T06:55:00.740187000 0.478925s info: Listening for intracluster connections on port 29015
+2014-08-19T06:55:00.742405000 0.481143s info: Listening for client driver connections on port 28015
+2014-08-19T06:55:00.742426000 0.481164s info: Listening for administrative HTTP connections on port 8080
+2014-08-19T06:55:00.742428000 0.481166s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-19T06:55:00.742429000 0.481166s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-19T06:55:00.742430000 0.481167s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-19T06:55:00.742430000 0.481168s info: Server ready
+2014-08-19T07:04:56.122005000 595.765914s info: Server got SIGINT from pid 2180, uid 501; shutting down...
+2014-08-19T07:04:56.122336000 595.766245s info: Shutting down client connections...
+2014-08-19T07:04:56.122651000 595.766559s info: All client connections closed.
+2014-08-19T07:04:56.122657000 595.766565s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-08-19T07:04:56.128488000 595.772397s info: Storage engine shut down.
+2014-08-19T09:51:01.559811000 0.038454s info: Running rethinkdb 1.11.3 (CLANG 5.0 (clang-500.2.79))...
+2014-08-19T09:51:01.562845000 0.041488s info: Running on Darwin 13.3.0 x86_64
+2014-08-19T09:51:01.562868000 0.041511s info: Loading data from directory /Users/philipmorris/LocalDev/Node/froggyfrog/membership/rethinkdb_data
+2014-08-19T09:51:01.578977000 0.057620s info: Listening for intracluster connections on port 29015
+2014-08-19T09:51:01.581392000 0.060035s info: Listening for client driver connections on port 28015
+2014-08-19T09:51:01.581406000 0.060049s info: Listening for administrative HTTP connections on port 8080
+2014-08-19T09:51:01.581409000 0.060052s info: Listening on addresses: 127.0.0.1, ::1
+2014-08-19T09:51:01.581410000 0.060053s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-08-19T09:51:01.581410000 0.060053s info: by running rethinkdb with the `--bind all` command line option.
+2014-08-19T09:51:01.581411000 0.060054s info: Server ready
