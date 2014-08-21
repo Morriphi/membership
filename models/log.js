@@ -8,6 +8,6 @@ var Log = function(args){
     log.userId = args.userId;
     log.createdAt = new Date();
     return log;
-}
+};
 
 module.exports = Log;

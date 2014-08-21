@@ -22,13 +22,13 @@ var Application = function (args) {
     function setValid(callback) {
         self.status = 'validated';
         callback(self);
-    };
+    }
 
     function setInvalid(message, callback) {
         self.status = 'invalid';
         self.message = message;
         callback(self);
-    };
+    }
 };
 
 module.exports = Application;

@@ -15,6 +15,6 @@ var User = function(args){
     user.authenticationToken = args.authenticationToken || utility.randomString(18);
 
     return user;
-}
+};
 
 module.exports = User;
