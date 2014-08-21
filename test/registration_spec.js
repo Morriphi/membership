@@ -17,8 +17,8 @@ describe('Registration', function () {
         var regResult = {};
 
         before(function (done) {
-            db.users.destroyAll(function (err, result) {
-                db.logs.destroyAll(function (err, result) {
+            db.users.destroyAll(function () {
+                db.logs.destroyAll(function () {
                     reg.applyForMembership({
                             email: 'test@email.com',
                             password: 'pass',
@@ -128,8 +128,8 @@ describe('Registration', function () {
         var regResult = {};
 
         before(function (done) {
-            db.users.destroyAll(function (err, result) {
-                db.logs.destroyAll(function (err, result) {
+            db.users.destroyAll(function () {
+                db.logs.destroyAll(function () {
                     reg.applyForMembership({
                             email: 'test@email.com',
                             password: 'pass',

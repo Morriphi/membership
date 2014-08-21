@@ -1,49 +1,34 @@
 var Application = function (args) {
-    var app = {};
-    app.email = args.email;
-    app.password = args.password;
-    app.confirm = args.confirm;
-    app.status = 'pending';
-    app.message = null;
+    var self = this;
 
-    app.validate = function (message){
-        app.status = 'validated';
+    self.email = args.email;
+    self.password = args.password;
+    self.confirm = args.confirm;
+    self.status = 'pending';
+    self.message = null;
+    self.user = null;
+
+    self.validate = function (success, fail) {
+        if (!self.email)
+            setInvalid('Email is required', fail);
+        else if (!self.password)
+            setInvalid('Password is required', fail);
+        else if (self.password !== self.confirm)
+            setInvalid('Passwords don\'t match', fail);
+        else
+            setValid(success);
     };
 
-    app.isValid = function () {
-        return app.status === 'validated';
+    function setValid(callback) {
+        self.status = 'validated';
+        callback(self);
     };
 
-    app.isInvalid = function () {
-        return !app.isValid();
+    function setInvalid(message, callback) {
+        self.status = 'invalid';
+        self.message = message;
+        callback(self);
     };
-
-    app.setInvalid = function (message) {
-        app.status = 'invalid';
-        app.message = message;
-    };
-
-    app.validateInputs = function(){
-        if(!app.email){
-            app.setInvalid('Email is required');
-            return;
-        };
-
-        if(!app.password){
-            app.setInvalid('Password is required');
-            return;
-        }
-
-        if(!app.email || !app.password){
-            app.setInvalid('Email and password are required');
-        } else if(app.password !== app.confirm){
-            app.setInvalid('Passwords don\'t match');
-        } else {
-            app.validate();
-        }
-    };
-
-    return app;
 };
 
 module.exports = Application;
